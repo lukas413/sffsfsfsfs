@@ -174,7 +174,7 @@ A.create(
             task.wait(0.5)
 
             -- Sonraki scripti yükle
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/Emircxy/Lear/refs/heads/main/KeySystem"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Emircxy/Lear/refs/heads/main/Ui%20Animation"))()
             
             -- GUI'yi temizle
             ScreenGui:Destroy()
@@ -182,4 +182,5 @@ A.create(
             game.Players.LocalPlayer:Kick("If you do not accept the terms, you cannot execute this script.")
         end
     end
+
 )
