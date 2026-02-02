@@ -178,9 +178,8 @@ A.create(
             
             -- GUI'yi temizle
             ScreenGui:Destroy()
-        else
-            game.Players.LocalPlayer:Kick("If you do not accept the terms, you cannot execute this script.")
         end
     end
 
 )
+
